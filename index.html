@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <title>Olá Mundo!</title>
+
+</head>
+
+<body>
+    <h1>Olá Mundo!</h1>
+    Nos estamos usando node
+    <button id="getptice">text</button>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Coin
+                            </th>
+                            <th>
+                                Difficulty
+                            </th>
+                            <th>
+                                Net Hash Rate
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            <th>
+                                24H Profit
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                TrezarCoin
+                            </td>
+                            <td id="tDifficulty">
+                                Loading
+                            </td>
+                            <td id="tnetHashRate">
+                                Loading
+                            </td>
+                            <td id="tPrice">
+                                Loading
+                            </td>
+                            <td id="tprofit">
+                                Loading
+                            </td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>
+                                BZL
+                            </td>
+                            <td id="bDifficulty">
+                                Loading
+                            </td>
+                            <td>
+                                Loading
+                            </td>
+                            <td>
+                                Loading
+                            </td>
+                            <td>
+                                Loading
+                            </td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>
+                                Sono
+                            </td>
+                            <td id="sDifficulty">
+                                Loading
+                            </td>
+                            <td>
+                                Loading
+                            </td>
+                            <td>
+                                Loading
+                            </td>
+                            <td>
+                                Loading
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+
+                <button type="button" class="btn btn-success" id="start">
+                    Start
+                </button>
+            </div>
+            <div class="col-md-4">
+
+                <button type="button" class="btn btn-success" id="stop">
+                    Stop
+                </button>
+            </div>
+            <div class="col-md-4">
+
+                <button type="button" class="btn btn-success">
+                    Button
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
